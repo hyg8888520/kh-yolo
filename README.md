@@ -39,4 +39,14 @@ Thanks to the authors of the open source course and the tutorials shared on the 
 **Free Software, Hell Yeah!**
 
 
-![image](https://github.com/MaiEmily/map/blob/master/public/image/20190528145810708.png)
+## Images
+> Here are some training results from the network
+
+![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/02d6dc923c0d21e923d71fb5ca22c135.jpeg)
+![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/175a246c769747911130c9c96e4e118e.jpeg)
+![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/2ae33fd854e6325b6a0c2aded96811d2.jpeg)
+![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/2be1eae9c106d2255ff88bfeb0bd06f3.jpeg)
+![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/2f86fbd36618afe6cfd778d3acc4bf02.jpeg)
+![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/5e6166af217b94cfe8b3d76ad255d018.jpeg)
+![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/7c582300de0eafa838443bc003170f6b.jpeg)
+
