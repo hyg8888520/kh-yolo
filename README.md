@@ -1,6 +1,5 @@
 # kh-yolo
 ## Features
-## Features
 
 - 这是一个简单的目标检测，你可以使用yolov5、ssd等算法获得onnx权重来使用它
 - best.onnx为本人制作的训练集所训练的模型，它并不完美，如果你有更好的模型也可以替换它
