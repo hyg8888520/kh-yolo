@@ -1,46 +1,34 @@
 # kh-yolo
 ## Features
+## Features
 
-- This is a face-mask recognition program developed based on yolov5.
-- You can use it to detect faces or faces wearing masks.
-- As long as the storage path of the image to be recognized needs to be input, the recognition result can be obtained.
-- It relies on some machine learning environments to run, such as pytorch that you can look for them in Requirements.txt
-
-> The only function of this program is to recognize faces and face masks
-> so it is very simple and simple, and aims to solve problems quickly.
-> This is very useful in COVID-19's wreaking havoc today.
+- 这是一个简单的目标检测，你可以使用yolov5、ssd等算法获得onnx权重来使用它
+- best.onnx为本人制作的训练集所训练的模型，它并不完美，如果你有更好的模型也可以替换它
+- 它可以检测人脸与戴口罩的人脸
 
 
 ## Tech
 
-- The course uses a number of open source projects to work properly:
+- 它需要这些库来支持:
 
-- [pytorch] - useing to realize machine learning.
-- [numpy] - awesome matrix tool.
-- [yolov5] - awesome Target recognition tool
-- and so on...
+- [numpy](https://github.com/numpy/numpy)
+- [opencv](https://github.com/opencv)
 
-And of course itself is open source on GitHub.
+> 你可以点击以访问它们的GitHub仓库
 
 
 ## Usage
 
-- Download and run it in pycharm.
-- Enter the file path where the picture is located.
+- 如果你有自己的onnx权重，请放到weight文件夹，并在main.py中把best.onnx改为你自己的模型
+- 图片可以放在input中，也可以在运行时输入存储路径，或者使用摄像头
+- 输出的结果放在output中
 
 
-## Authors and acknowledgment
 
-Thanks to the authors of the open source course and the tutorials shared on the Internet ，otherwise I can't complete this work with my meager ability
-
-
-## License
-
-**Free Software, Hell Yeah!**
 
 
 ## Images
-> Here are some training results from the network
+> 下面是一些output
 
 ![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/02d6dc923c0d21e923d71fb5ca22c135.jpeg)
 ![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/175a246c769747911130c9c96e4e118e.jpeg)
@@ -48,5 +36,6 @@ Thanks to the authors of the open source course and the tutorials shared on the 
 ![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/2be1eae9c106d2255ff88bfeb0bd06f3.jpeg)
 ![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/2f86fbd36618afe6cfd778d3acc4bf02.jpeg)
 ![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/5e6166af217b94cfe8b3d76ad255d018.jpeg)
+![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/7c582300de0eafa838443bc003170f6b.jpeg)
 ![image](https://github.com/hyg8888520/kh-yolo/tree/main/images%20-%20result/7c582300de0eafa838443bc003170f6b.jpeg)
 
